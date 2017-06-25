@@ -1,5 +1,5 @@
 alglib1.so:
-	g++ -Wall -O3 -shared -fPIC alglib1.cpp -o alglib1.so -lcrypto
+	g++ -Wall -O3 -shared -fPIC alglib1.cpp sha1.c -o alglib1.so
 
 windows:
 	# yum install mingw32-openssl mingw32-openssl-static mingw32-gcc mingw32-gcc-c++ mingw32-winpthreads-static -y

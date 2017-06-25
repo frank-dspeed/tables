@@ -31,16 +31,6 @@ $ ffprobe test.aax  # extract SHA1 checksum
 [mov,mp4,m4a,3gp,3g2,mj2 @ 0x1dde580] [aax] activation_bytes option is missing!
 ```
 
-##### Compile the plugin for RainbowCrack
-
-```
-make
-```
-
-This will build the `alglib1.so` plugin file. On Ubuntu, the required build
-dependencies can be installed by running the `sudo apt-get install libssl-dev
-build-essential` command.
-
 ##### Recover "activation_bytes"
 
 ```

@@ -20,9 +20,9 @@
  * ./rt2rtc *.rt 25 25 -m 512 -p
  */
 
-#include <openssl/md5.h>
-#include <openssl/sha.h>
+// #include <openssl/sha.h>
 #include <stdio.h>
+#include "sha1.h"
 #ifdef _WIN32
 #pragma comment(lib, "libeay32.lib")
 #endif
