@@ -8,6 +8,11 @@ You need to recover or retrieve your "activation_bytes" only once. This single
 
 This project is in public domain.
 
+## Donations
+
+Donations are gladly accepted. Please send BTC to `1FDFp8kWjnUCGTLw1SVkim6kRnYDge2vYh`
+to support the development, and maintenance of this project. Thank you!
+
 ## Note
 
 Git clone this repository on your machine. This repository has the required
